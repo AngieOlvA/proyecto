@@ -44,6 +44,7 @@ const CreatePage  = () => {
         try {
             const response = await axios.post("/api/carreras",values);
             router.push(`/administrator/carreras/${response.data.id}`);
+            toast.success("Carrera creada");
         } catch {
             toast.error("Algo salio mal");
         }
