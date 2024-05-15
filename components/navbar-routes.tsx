@@ -19,16 +19,16 @@ export const NavbarRoutes = () => {
     return (
         <div className="flex gap-x-2 ml-auto">
           {isTeacherPage || isPlayerPage ? (
-            <Link href="/">
-                <Button  size="sm" variant="ghost">    
-                   <LogOut className="h-4 w-4 mr-2" />
-                    Exit
-                </Button>
-              </Link>
+          <Link href="/">
+            <Button size="sm" variant="ghost">    
+              <LogOut className="h-4 w-4 mr-2" />
+               Salir
+            </Button>
+          </Link>
             ) : (
               <Link href="/administrator/carreras">
-               <Button size="sm" variant= "ghost">
-                 Administrator mode
+               <Button  className="bg-blue-500 text-white" size="sm" variant= "ghost">
+                 Modo Administrador
                 </Button>
               </Link>       
             )}
