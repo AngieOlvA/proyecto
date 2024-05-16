@@ -97,7 +97,11 @@ export const ImageForm = ({
                     bg-slate-200 rounded-md">
                         <ImageIcon className="h-10 w-10 text-slate-500"/>
                         </div>
+<<<<<<< HEAD
                 ) : (
+=======
+                    ) : (
+>>>>>>> 0a43dba57cda6f42a3b1a5b8af3660e7741f085f
                     <div className="relative aspect-video mt-2"> 
                         <Image 
                             alt ="Upload"
